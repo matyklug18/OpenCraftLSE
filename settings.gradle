@@ -1,0 +1,3 @@
+rootProject.name = 'OpenCraft'
+include ":LSE"
+project(":LSE").projectDir = file("../LSE")

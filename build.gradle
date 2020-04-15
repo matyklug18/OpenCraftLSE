@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'matyk'
+version '0.0.0.1'
+
+application {
+    mainClassName = "matyk.lse.main.Main"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.6.2'
+    compile project(":LSE")
+}
